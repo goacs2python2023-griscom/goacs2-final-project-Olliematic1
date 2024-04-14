@@ -1,46 +1,35 @@
-# FINAL PROJECT
+******************************************************************************************************************
 
-This repository is for all of the programs and files needed for your final project.
+# Oliver Laskow's Final Project
 
-Include any program files or data files that are needed for your visualizations when submitting to this assignment.
+Creates a visualization using Bokeh with data from [data.gov](https://catalog.data.gov/dataset/air-quality)
 
-If you are pulling data from an API, please put the data into a file in this repository.
+- Data describes air quality of NYC with different particles from ~2005 to ~2021
 
-THANK YOU FOR A GREAT SEMESTER! :)
+- Each y-axis is a different measure, the data is meant more for a trendline than spesific data points
 
----
+- Downloading rainbow.csv is **unneccesary** for viewing Air_Quality.csv
 
-## SPECIAL INSTRUCTIONS FOR API USERS
+## Scales for particles
+- Nitrogen dioxide (NO2) is in ppb
 
-Add a file named `config.py` and store your API keys in variables within this file. `config.py` has already been added to the `.gitignore` file.
+- Fine particles (PM 2.5) is in mcg/m3
 
-Add an `import config` to the top of your programs in order to use the API key. This will prevent the API key from being published to the web. You can then use the API key in your file by accessing the variable inside the config module, for example `config.my_api_key`.
+- Ozone (O3) is in ppb
 
+- Annual vehicle miles traveled is in million miles per km2
 
-When using the requests library, you might need to `pip install requests`. If your computer complains about permissions, try installing for the user using `python -m pip install -user requests` on Windows or `pip install --user requests` on Mac.
+- Boiler Emissions- Total SO2 Emissions is in Number per km2
 
----
+- Boiler Emissions- Total PM2.5 Emissions is in Number per km2
 
-### Tips
-- Start the project early!
-    - The earlier you start, the more time you have to get help if you run into any 
-    problems.
-- Test your code. 
-    - Find good stopping points to test out bits of code and
-    functions even when your program is only partially finished. 
-    - Try out different inputs and see if you expect the outputs that you get.
-- Ask for help on Twist. 
-    - Remember that we are traveling together on this 
-    learning journey and you don't have to struggle alone!
-    - It is way more important that you get your questions answered than it is
-    for you to have a perfectly working program
-- Try some [rubber duck debugging](https://rubberduckdebugging.com/).
-    - Find a rubber duck, or a pet rock, a stuffed animal, a figurine, a patient dog.
-    - Explain your program, line by line, to the victim of your choice.
-    - Sometimes this helps you think through your code and how it works, and 
-    can help you find bugs and errors in your code.
-- DO NOT COPY/PASTE CODE unless otherwise instructed to.
-    - The purpose of these exercises is for you to practice your programming skills.
-    - You will only harm yourself if you do not make the effort to understand the
-    programming concepts we are covering.
-    
+- Boiler Emissions- Total NOx Emissions is in Number per km2
+
+- Annual vehicle miles travelled (cars) is in million miles per km2
+
+- Annual vehicle miles travelled (trucks) is in million miles per km2
+
+- Outdoor Air Toxics - Formaldehyde is in µg/m3
+
+- Outdoor Air Toxics - Benzene is in µg/m3
+******************************************************************************************************************
